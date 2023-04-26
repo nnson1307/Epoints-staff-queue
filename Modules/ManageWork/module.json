@@ -1,0 +1,14 @@
+{
+    "name": "ManageWork",
+    "alias": "managework",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ManageWork\\Providers\\ManageWorkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/jobnotify",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\JobNotify\\Providers\\JobNotifyServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\JobNotify\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/managework",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ManageWork\\Providers\\ManageWorkServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ManageWork\\": ""
+        }
+    }
+}
